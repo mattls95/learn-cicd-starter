@@ -1,1 +1,13 @@
 !notely
+# language=ignore
+.git
+.gitignore
+.github
+vendor
+node_modules
+*.log
+*.tgz
+*.tar
+*.zip
+build
+dist
