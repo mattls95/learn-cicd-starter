@@ -19,4 +19,8 @@ jobs:
           go-version: "1.25.1"
 
       - name: Run go tests
-        run: go test ./... -cover
+        run: go test ./... -cover¨
+  
+  style:
+    - name: Run go format tests
+      run: test -z $(go fmt ./...)
